@@ -65,7 +65,7 @@ public class FirebaseThread extends Thread{
             aHotel.setAddress(Add);
             aHotel.setImgURL(hotelImg);
             lsHotel.add(aHotel);
-            Log.v("MyApplication",Add +";" + Name);
+            Log.v("hotel",Add +";" + Name);
 
             Message msg = new Message();
             msg.what = LIST_HOTEL;

@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onCancelled(DatabaseError databaseError) {
-                Log.v("MyApplication",databaseError.getMessage());
+                Log.v("hotel",databaseError.getMessage());
             }
         });
     }
